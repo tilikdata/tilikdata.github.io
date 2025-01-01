@@ -75,7 +75,7 @@ author:
   # zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
-publication_category:
+Report_category:
   books:
     title: 'Books'
   manuscripts:
@@ -215,7 +215,7 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  publications:
+  reports:
     output: true
     permalink: /:collection/:path/
   portfolio:
@@ -255,10 +255,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
+  # _reports
   - scope:
       path: ""
-      type: publications
+      type: reports
     values:
       layout: single
       author_profile: true
