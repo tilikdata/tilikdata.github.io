@@ -20,8 +20,8 @@ main:
   - title: "Articles"
     url: /articles/
     
-  - title: "About Us"
-    url: /about_us/
+  # - title: "About Us"
+  #   url: /about_us/
     
   #- title: "Guide"
    # url: /markdown/
