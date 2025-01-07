@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "CV"
-permalink: /cv/
+permalink: /about_us/
 author_profile: true
 redirect_from:
   - /resume
@@ -43,20 +43,20 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
+  <ul>{% for post in site.report reversed %}
+    {% include archive-single-about_us.html %}
   {% endfor %}</ul>
   
 Talks
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
+  <ul>{% for post in site.visualization reversed %}
+    {% include archive-single-talk-about_us.html  %}
   {% endfor %}</ul>
   
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
+  <ul>{% for post in site.dashboard reversed %}
+    {% include archive-single-about_us.html %}
   {% endfor %}</ul>
   
 Service and leadership
